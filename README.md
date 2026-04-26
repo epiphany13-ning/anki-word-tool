@@ -90,3 +90,12 @@ python3 -m anki_word_tool.cli all \
 1. 正面：词语
 2. 背面：解释
 3. 标签：成语
+
+配套教程图：
+
+- PC 端导入教程：[docs/anki-import-pc.svg](docs/anki-import-pc.svg)
+- 移动端导入教程：[docs/anki-import-mobile.svg](docs/anki-import-mobile.svg)
+
+闲鱼售卖文案见：[docs/xianyu-listing-copy.md](docs/xianyu-listing-copy.md)
+
+可复用的 Codex skill 已沉淀在：[skills/anki-deck-production/SKILL.md](skills/anki-deck-production/SKILL.md)
