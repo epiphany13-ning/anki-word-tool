@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">移动端导入 Anki 牌组教程</title>
+  <desc id="desc">展示将 TSV 文件导入 Anki 移动端并同步复习的步骤。</desc>
+  <rect width="1200" height="1200" fill="#f6f7f9"/>
+  <text x="80" y="86" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="52" font-weight="700" fill="#17202a">移动端导入 Anki 牌组</text>
+  <text x="80" y="135" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="26" fill="#52606d">适用于 iPhone / Android：保存 TSV 文件，分享到 Anki，确认字段后复习。</text>
+
+  <g transform="translate(80 175)">
+    <rect x="0" y="0" width="1040" height="180" rx="22" fill="#ffffff" stroke="#d8dee6"/>
+    <circle cx="66" cy="60" r="32" fill="#246bfe"/>
+    <text x="66" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#ffffff">1</text>
+    <text x="120" y="55" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="33" font-weight="700" fill="#17202a">接收文件</text>
+    <text x="120" y="104" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#52606d">把卖家提供的 TSV 文件保存到手机文件管理器。</text>
+    <rect x="120" y="125" width="300" height="42" rx="12" fill="#eef4ff" stroke="#bdd0ff"/>
+    <text x="145" y="154" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="22" fill="#1f55c8">anki_chengyu.tsv</text>
+    <path d="M900 52 h66 a22 22 0 0 1 22 22 v62 a22 22 0 0 1-22 22 h-110 a22 22 0 0 1-22-22 v-40 z" fill="#f0f3f7" stroke="#c8d0da"/>
+    <path d="M900 52 v44 h-66" fill="none" stroke="#c8d0da" stroke-width="4"/>
+  </g>
+
+  <g transform="translate(80 385)">
+    <rect x="0" y="0" width="1040" height="205" rx="22" fill="#ffffff" stroke="#d8dee6"/>
+    <circle cx="66" cy="60" r="32" fill="#246bfe"/>
+    <text x="66" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#ffffff">2</text>
+    <text x="120" y="55" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="33" font-weight="700" fill="#17202a">用 Anki 打开</text>
+    <text x="120" y="104" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#52606d">在文件 App 或文件管理器中点击分享，选择 Anki 或 AnkiDroid。</text>
+    <rect x="120" y="128" width="790" height="52" rx="14" fill="#f8fafc" stroke="#d8dee6"/>
+    <text x="148" y="162" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="23" fill="#17202a">分享</text>
+    <path d="M250 154 h190" stroke="#9aa6b2" stroke-width="4" stroke-linecap="round"/>
+    <rect x="480" y="136" width="150" height="36" rx="18" fill="#246bfe"/>
+    <text x="555" y="162" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="22" fill="#ffffff">Anki</text>
+    <path d="M665 154 h195" stroke="#9aa6b2" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(80 620)">
+    <rect x="0" y="0" width="1040" height="300" rx="22" fill="#ffffff" stroke="#d8dee6"/>
+    <circle cx="66" cy="60" r="32" fill="#246bfe"/>
+    <text x="66" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#ffffff">3</text>
+    <text x="120" y="55" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="33" font-weight="700" fill="#17202a">确认字段映射</text>
+    <text x="120" y="104" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#52606d">如果出现导入设置，按下面字段对应即可。</text>
+    <g transform="translate(120 130)" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="24">
+      <rect x="0" y="0" width="790" height="48" rx="12" fill="#f8fafc" stroke="#d8dee6"/>
+      <text x="24" y="32" fill="#17202a">第 1 列：词语</text>
+      <text x="360" y="32" fill="#52606d">→ 正面</text>
+      <rect x="0" y="60" width="790" height="48" rx="12" fill="#f8fafc" stroke="#d8dee6"/>
+      <text x="24" y="92" fill="#17202a">第 2 列：解释</text>
+      <text x="360" y="92" fill="#52606d">→ 背面</text>
+      <rect x="0" y="120" width="790" height="48" rx="12" fill="#f8fafc" stroke="#d8dee6"/>
+      <text x="24" y="152" fill="#17202a">第 3 列：标签</text>
+      <text x="360" y="152" fill="#52606d">→ 标签</text>
+    </g>
+  </g>
+
+  <g transform="translate(80 950)">
+    <rect x="0" y="0" width="1040" height="170" rx="22" fill="#ffffff" stroke="#d8dee6"/>
+    <circle cx="66" cy="60" r="32" fill="#246bfe"/>
+    <text x="66" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#ffffff">4</text>
+    <text x="120" y="55" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="33" font-weight="700" fill="#17202a">开始复习并同步</text>
+    <text x="120" y="104" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#52606d">导入完成后打开「公考成语」，登录 AnkiWeb 后可电脑手机同步。</text>
+    <rect x="120" y="124" width="230" height="36" rx="18" fill="#17a673"/>
+    <text x="235" y="149" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff">开始学习</text>
+  </g>
+
+  <text x="80" y="1165" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#7a8694">提示：不同客户端界面略有差异，以「导入 / 分享到 Anki / 同步」入口为准。</text>
+</svg>
